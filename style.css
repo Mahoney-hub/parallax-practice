@@ -1,0 +1,88 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0; /* !!! Very important */
+	padding: 0; /* !!! Very important */
+	background-color: black;
+	font-family: 'PT Sans', Tahoma, Verdana, Arial;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+img {
+	display: block;
+}
+
+.space {
+	height: 600px;
+	max-width: 100%;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 100px;
+	position: relative; /* !!! Very important */
+	overflow: hidden; /* !!! Very important */
+}
+
+
+.layer {
+	width: 100%; /* !!! Very important */
+	height: 100%; /* !!! Very important */
+}
+
+.layer img {
+	position: absolute; /* !!! Very important */
+}
+
+.layer__space img {
+	left: -40px; /* !!! Very important */
+	top: -40px; /* !!! Very important */
+}
+
+.layer__earth img {
+	left: 50%; /* !!! Very important */ 
+	top: 150px; /* !!! Very important */
+}
+
+.layer__comet img {
+	right: 650px; /* !!! Very important */
+	top: 50px; /* !!! Very important */
+}
+
+.layer__shuttle img {
+	right: 45%; /* !!! Very important */
+	top: 100px; /* !!! Very important */
+}
+
+.description {
+	color: #777;
+	text-align: center;
+}
+
+.description a {
+	text-decoration: none;
+	border-bottom: 1px double #999;
+	color: #999;
+}
+
+
+
+
+
+
+
+/*
+.layer {
+	width: 100%;
+	height: 100%;
+}
+.layer__earth img {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+}
+.layer__shuttle img {
+  position: absolute;
+  bottom: 0px;
+  right: -500px;
+}
+*/
